@@ -1,7 +1,7 @@
 #include "U8glib.h"
 #include "DHT.h"
 
-#define DHTPIN 2     // what digital pin we're connected to
+#define DHTPIN 2     // The Arduino Pin
 #define DHTTYPE DHT22   // DHT 22  (AM2302), AM2321
 
 U8GLIB_SSD1306_128X64 u8g(13, 11, 10, 9, 8);
